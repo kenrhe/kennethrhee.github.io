@@ -89,7 +89,10 @@ body {
           font-size: 72px;
           color: white;
           margin: 0; }
-      #usareconditioning .container .sub-container .sub-title {
+      #usareconditioning .container .sub-container .desc {
+        margin-left: 24px;
+        font-size: 24px; }
+      #usareconditioning .container .sub-container .album {
         text-align: center; }
 
 @media screen and (max-width: 1152px) {
