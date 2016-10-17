@@ -91,7 +91,8 @@ body {
           margin: 0; }
       #usareconditioning .container .sub-container .desc {
         margin-left: 24px;
-        font-size: 24px; }
+        font-size: 14px;
+        width: 480px; }
       #usareconditioning .container .sub-container .album {
         text-align: center; }
 
