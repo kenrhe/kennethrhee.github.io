@@ -63,6 +63,35 @@ body {
         font-size: 144px;
         margin: 0; }
 
+#usareconditioning {
+  background: url(../images/city.jpg) no-repeat center center scroll;
+  font-family: 'Lato', sans-serif;
+  padding: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  #usareconditioning .filter {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); }
+  #usareconditioning .container {
+    padding: 0;
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%; }
+    #usareconditioning .container .sub-container {
+      color: white; }
+      #usareconditioning .container .sub-container .title {
+        margin-left: 12px; }
+        #usareconditioning .container .sub-container .title h1 {
+          font-size: 72px;
+          color: white;
+          margin: 0; }
+      #usareconditioning .container .sub-container .sub-title {
+        text-align: center; }
+
 @media screen and (max-width: 1152px) {
   #home .container .sub-container .title {
     margin-left: 20%; }
