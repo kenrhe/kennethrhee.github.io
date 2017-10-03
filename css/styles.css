@@ -13,5 +13,11 @@ p {
 
 #container {
   margin: 0 auto;
-  width: 500px;
+  width: 1000px;
+}
+
+.col {
+  width: 33%;
+  display: inline-block;
+  vertical-align: top;
 }
