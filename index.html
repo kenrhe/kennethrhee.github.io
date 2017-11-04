@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+
 <link href="css/styles.css" rel="stylesheet">
 
 <title>Kenneth Rhee</title>
@@ -15,49 +18,105 @@
     <div id="container">
         <h1>Hello and welcome to kennethrhee.com!</h1>
         <p>Here you can see my projects, skills, and experiences. The latest projects I've worked on is PressNotify (at my Promediacorp, Inc. internship), ZTSRating, and PassTheTuring</p>
+        <section id="projects" class="section-projects">
+            <h2>Projects</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>PressNotify</h4>
+                    <a href="https://pressnotify.com/" target="_blank">
+                    <img src="images/projects/pressnotify.png" class="project-img" />
+                    </a>
+                    <p>PressNotify is a tool that allows you to automatically send pitch e-mails to various publications using a template provided. Just fill out the form and press send! I developed this tool at Promediacorp while working as a software engineer intern in summer 2017.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Pass The Turing</h4>
+                    <a href="http://passtheturing.herokuapp.com/" target="_blank">
+                        <img src="images/projects/passtheturing.png" class="project-img" />
+                    </a>
+                    <p>PassTheTuring (Alan) is a bot that analyzes movie scripts and finds the most appropriate response based on previous interactions between characters in a movie. We fed it over 100 movie scripts (ranging from 12 Angry Men to The Dark Night).</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Up Hail</h4>
+                    <a href="https://uphail.com/" target="_blank">
+                        <img src="images/projects/uphail.png" class="project-img" />
+                    </a>
+                    <p>Example</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>ZTSRating.com</h4>
+                    <a href="http://ztsrating.com/" target="_blank">
+                        <img src="images/projects/ztsrating.png" class="project-img" />
+                    </a>
+                    <p>Example</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Task Management Tool for USA Reconditioning</h4>
+                    <a href="http://ztsrating.com/" target="_blank">
+                        <img src="images/projects/usarec.png" class="project-img" />
+                    </a>
+                    <p>Example</p>
+                </div>
+                <div class="col-md-4">
+                    UCI Firewall
+                </div>
+            </div>
+            <h5>Other small projects</h5>
+            <ul>
+                <li>Travel App</li>
+                <li>hackBCA</li>
+                <li>EventrPic</li>
+                <li>Catfacts</li>
+                <li>The Clean Sleep</li>
+                <li>BCA Field Day</li>
+                <li>BCA GPA Calculator</li>
+            </ul>
+        </section>
         <section id="skills" class="section-skills">
             <h2>Skills</h2>
-
-            <div class="col">
-                <h3>Languages</h3>
-                <ul>
-                    <li>Python</li>
-                    <li>Java</li>
-                    <li>C++</li>
-                    <li>PHP</li>
-                    <li>Javascript</li>
-                    <li>HTML/CSS</li>
-                    <li>BASH</li>
-                </ul>
-            </div>
-            <div class="col">
-                <h3>Frameworks</h3>
-                <ul>
-                    <li>Flask</li>
-                    <li>Jetty</li>    
-                    <li>Yii</li>
-                    <li>React</li>
-                </ul>
-            </div>
-            <div class="col">
-                <h3>Services/APIs/Tools</h3>
-                <ul>
-                    <li>Heroku</li>
-                    <li>MongoDB</li>
-                    <li>Git</li>
-                    <li>Selenium</li>
-                    <li>BeautifulSoup</li>
-                    <li>Google App Engine</li>
-                    <li>AWS EC2</li>
-                    <li>AWS Lambda</li>
-                    <li>AWS ELB</li>
-                    <li>AWS Route 53</li>
-                    <li>AWS CloudFront</li>
-                    <li>AWS S3</li>
-                    <li>AWS DynamoDB</li>
-                    <li>AWS SES</li>
-                    <li>AWS API Gateway</li>
-                </ul>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Languages</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>C++</li>
+                        <li>PHP</li>
+                        <li>Javascript</li>
+                        <li>HTML/CSS</li>
+                        <li>BASH</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h3>Frameworks</h3>
+                    <ul>
+                        <li>Flask</li>
+                        <li>Jetty</li>    
+                        <li>Yii</li>
+                        <li>React</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h3>Services/APIs/Tools</h3>
+                    <ul>
+                        <li>Heroku</li>
+                        <li>MongoDB</li>
+                        <li>Git</li>
+                        <li>Selenium</li>
+                        <li>BeautifulSoup</li>
+                        <li>Google App Engine</li>
+                        <li>AWS EC2</li>
+                        <li>AWS Lambda</li>
+                        <li>AWS ELB</li>
+                        <li>AWS Route 53</li>
+                        <li>AWS CloudFront</li>
+                        <li>AWS S3</li>
+                        <li>AWS DynamoDB</li>
+                        <li>AWS SES</li>
+                        <li>AWS API Gateway</li>
+                    </ul>
+                </div>
             </div>
         </section>
         <section id="experience" class="section-experience">
@@ -66,24 +125,6 @@
                 <li>Software Engineer @ Promediacorp, Inc.</li>
                 <li>Tech Intern @ Newlio</li>
                 <li>Director @ hackBCA</li>
-            </ul>
-        </section>
-        <section id="projects" class="section-projects">
-            <h2>Projects</h2>
-            <ul>
-                <li>ZTSRating.com</li>
-                <li>USA Reconditioning</li>
-                <li>UCI Firewall</li>
-                <li>Pass The Turing</li>
-                <li>Travel App</li>
-                <li>hackBCA</li>
-                <li>EventrPic</li>
-                <li>Catfacts</li>
-                <li>Up Hail</li>
-                <li>PressNotify</li>
-                <li>The Clean Sleep</li>
-                <li>BCA Field Day</li>
-                <li>BCA GPA Calculator</li>
             </ul>
         </section>
         <section id="education" class="section-education">

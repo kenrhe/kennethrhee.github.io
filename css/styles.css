@@ -1,14 +1,7 @@
 body {
   font-family: 'Ubuntu', sans-serif;
   background-color: #FAFAFA;
-}
-
-h2 {
-  font-size: 22px;
-}
-
-p {
-  font-size: 18px;
+  margin-top: 36px;
 }
 
 #container {
@@ -16,8 +9,6 @@ p {
   width: 1000px;
 }
 
-.col {
-  width: 33%;
-  display: inline-block;
-  vertical-align: top;
+.project-img {
+  width: 100%;
 }
